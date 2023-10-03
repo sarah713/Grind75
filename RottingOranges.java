@@ -27,7 +27,7 @@ public class RottingOranges {
                 int[] cur = q.poll();
                 for (int i = 0; i < 4; i++) {
                     int x = cur[0] + dx[i];
-                    int y = cur[0] + dy[i];
+                    int y = cur[1] + dy[i];
 
                     if (x < 0 || x >= grid.length || y < 0 || y >= grid[0].length || grid[x][y] == 0
                             || grid[x][y] == 2) {
