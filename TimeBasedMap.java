@@ -35,6 +35,7 @@ public class TimeBasedMap {
             }
 
         }
+
         return list.get(start - 1).val;
     }
 
