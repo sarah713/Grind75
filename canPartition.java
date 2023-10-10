@@ -5,7 +5,7 @@ public class canPartition {
         for (int i : nums) {
             sum += i;
         }
-        if (sum / 2 != 0) {
+        if (sum % 2 != 0) {
             return false;
         }
 
